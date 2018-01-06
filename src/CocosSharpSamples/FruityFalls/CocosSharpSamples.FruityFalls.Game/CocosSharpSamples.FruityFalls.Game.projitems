@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>08d965c4-052e-4013-994a-ebb21d6326bc</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>CocosSharpSamples.FruityFalls.Game</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Fruit.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\FruitBin.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\FruitColor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\FruitColorExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\FruitEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\FruitsPool.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Paddle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\ScoreBox.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\SolidRectangle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Vine.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GameCoefficients.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GameDelegate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Geometry\Circle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Geometry\CollisionResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Geometry\Polygon.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Geometry\Segment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scenes\GameOverScene.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scenes\GameScene.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scenes\GameSceneLayers\BackgroundLayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scenes\GameSceneLayers\ForegroundLayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scenes\GameSceneLayers\GamePlayLayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scenes\GameSceneLayers\HudLayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scenes\TitleScene.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Images\background.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Images\cherry.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Images\foreground.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Images\lemon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Images\monkey.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Images\vine.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Content\Sounds\FruitEdgeBounce.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\Sounds\FruitInBin.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\Sounds\FruitPaddleBounce.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\Sounds\GameOver.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

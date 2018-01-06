@@ -7,9 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FruityFalls", "FruityFalls"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocosSharpSamples.FruityFalls.WindowsDX", "FruityFalls\CocosSharpSamples.FruityFalls.WindowsDX\CocosSharpSamples.FruityFalls.WindowsDX.csproj", "{C2AA92EF-1C66-4100-B17B-613EA7CB7BCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocosSharpSamples.FruityFalls.Game", "FruityFalls\CocosSharpSamples.FruityFalls.Game\CocosSharpSamples.FruityFalls.Game.csproj", "{7A78FDA1-B0CE-4471-95D9-12E903127A9F}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CocosSharpSamples.FruityFalls.Game", "FruityFalls\CocosSharpSamples.FruityFalls.Game\CocosSharpSamples.FruityFalls.Game.shproj", "{08D965C4-052E-4013-994A-EBB21D6326BC}"
 EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		FruityFalls\CocosSharpSamples.FruityFalls.Game\CocosSharpSamples.FruityFalls.Game.projitems*{08d965c4-052e-4013-994a-ebb21d6326bc}*SharedItemsImports = 13
+		FruityFalls\CocosSharpSamples.FruityFalls.Game\CocosSharpSamples.FruityFalls.Game.projitems*{c2aa92ef-1c66-4100-b17b-613ea7cb7bcc}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|x86 = Debug|x86
@@ -23,21 +27,13 @@ Global
 		{C2AA92EF-1C66-4100-B17B-613EA7CB7BCC}.Release|Any CPU.ActiveCfg = Release|x86
 		{C2AA92EF-1C66-4100-B17B-613EA7CB7BCC}.Release|x86.ActiveCfg = Release|x86
 		{C2AA92EF-1C66-4100-B17B-613EA7CB7BCC}.Release|x86.Build.0 = Release|x86
-		{7A78FDA1-B0CE-4471-95D9-12E903127A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7A78FDA1-B0CE-4471-95D9-12E903127A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7A78FDA1-B0CE-4471-95D9-12E903127A9F}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{7A78FDA1-B0CE-4471-95D9-12E903127A9F}.Debug|x86.Build.0 = Debug|Any CPU
-		{7A78FDA1-B0CE-4471-95D9-12E903127A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7A78FDA1-B0CE-4471-95D9-12E903127A9F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7A78FDA1-B0CE-4471-95D9-12E903127A9F}.Release|x86.ActiveCfg = Release|Any CPU
-		{7A78FDA1-B0CE-4471-95D9-12E903127A9F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C2AA92EF-1C66-4100-B17B-613EA7CB7BCC} = {F4E7F6BB-C5B1-4ED3-977F-514F4C005D31}
-		{7A78FDA1-B0CE-4471-95D9-12E903127A9F} = {F4E7F6BB-C5B1-4ED3-977F-514F4C005D31}
+		{08D965C4-052E-4013-994A-EBB21D6326BC} = {F4E7F6BB-C5B1-4ED3-977F-514F4C005D31}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DB4FAEF4-1EB1-4B58-B66A-32E1252BA7B7}

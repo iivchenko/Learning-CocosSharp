@@ -1,5 +1,6 @@
 using System;
 using CocosSharp;
+using CocosSharpSamples.FruityFalls.Game;
 
 namespace CocosSharpSamples.FruityFalls.WindowsDX
 {
