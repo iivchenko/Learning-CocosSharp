@@ -19,11 +19,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocosSharpSamples.CoinTime.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocosSharpSamples.CoinTime.WindowsDX", "CoinTime\CocosSharpSamples.CoinTime.WindowsDX\CocosSharpSamples.CoinTime.WindowsDX.csproj", "{90637FA5-B4FC-48E1-BB86-39C624B1FB5D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dungeon", "Dungeon", "{1CD049EC-70D5-4544-9139-2F49E552CD48}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CocosSharpSamples.Dungeon.Game", "Dungeon\CocosSharpSamples.Dungeon.Game\CocosSharpSamples.Dungeon.Game.shproj", "{0EAD3758-55D6-438B-AE78-3E6A1225F516}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocosSharpSamples.Dungeon.UWP", "Dungeon\CocosSharpSamples.Dungeon.UWP\CocosSharpSamples.Dungeon.UWP.csproj", "{4A5D21FF-481E-4FC9-8436-40BDF08993A1}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		FruityFalls\CocosSharpSamples.FruityFalls.Game\CocosSharpSamples.FruityFalls.Game.projitems*{08d965c4-052e-4013-994a-ebb21d6326bc}*SharedItemsImports = 13
+		Dungeon\CocosSharpSamples.Dungeon.Game\CocosSharpSamples.Dungeon.Game.projitems*{0ead3758-55d6-438b-ae78-3e6a1225f516}*SharedItemsImports = 13
 		FruityFalls\CocosSharpSamples.FruityFalls.Game\CocosSharpSamples.FruityFalls.Game.projitems*{168a5f5b-c057-45ef-bcad-a9eb72e1fd9e}*SharedItemsImports = 4
 		CoinTime\CocosSharpSamples.CoinTime.Game\CocosSharpSamples.CoinTime.Game.projitems*{226f8c27-5a3e-40a0-8555-ea22c0fbca0f}*SharedItemsImports = 4
+		Dungeon\CocosSharpSamples.Dungeon.Game\CocosSharpSamples.Dungeon.Game.projitems*{4a5d21ff-481e-4fc9-8436-40bdf08993a1}*SharedItemsImports = 4
 		CoinTime\CocosSharpSamples.CoinTime.Game\CocosSharpSamples.CoinTime.Game.projitems*{7c3ec2af-b8a9-4efe-a17e-2d74ac163a16}*SharedItemsImports = 13
 		CoinTime\CocosSharpSamples.CoinTime.Game\CocosSharpSamples.CoinTime.Game.projitems*{90637fa5-b4fc-48e1-bb86-39c624b1fb5d}*SharedItemsImports = 4
 		FruityFalls\CocosSharpSamples.FruityFalls.Game\CocosSharpSamples.FruityFalls.Game.projitems*{c2aa92ef-1c66-4100-b17b-613ea7cb7bcc}*SharedItemsImports = 4
@@ -261,6 +269,66 @@ Global
 		{90637FA5-B4FC-48E1-BB86-39C624B1FB5D}.Release|x64.Build.0 = Release|Any CPU
 		{90637FA5-B4FC-48E1-BB86-39C624B1FB5D}.Release|x86.ActiveCfg = Release|Any CPU
 		{90637FA5-B4FC-48E1-BB86-39C624B1FB5D}.Release|x86.Build.0 = Release|Any CPU
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Ad-Hoc|Any CPU.ActiveCfg = Release|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Ad-Hoc|Any CPU.Build.0 = Release|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Ad-Hoc|Any CPU.Deploy.0 = Release|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Ad-Hoc|ARM.ActiveCfg = Release|ARM
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Ad-Hoc|ARM.Build.0 = Release|ARM
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Ad-Hoc|ARM.Deploy.0 = Release|ARM
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Ad-Hoc|iPhone.ActiveCfg = Release|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Ad-Hoc|iPhone.Build.0 = Release|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Ad-Hoc|iPhone.Deploy.0 = Release|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Release|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Ad-Hoc|iPhoneSimulator.Build.0 = Release|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Ad-Hoc|iPhoneSimulator.Deploy.0 = Release|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Ad-Hoc|x64.ActiveCfg = Release|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Ad-Hoc|x64.Build.0 = Release|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Ad-Hoc|x64.Deploy.0 = Release|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Ad-Hoc|x86.ActiveCfg = Release|x86
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Ad-Hoc|x86.Build.0 = Release|x86
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Ad-Hoc|x86.Deploy.0 = Release|x86
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.AppStore|Any CPU.ActiveCfg = Release|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.AppStore|Any CPU.Build.0 = Release|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.AppStore|Any CPU.Deploy.0 = Release|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.AppStore|ARM.ActiveCfg = Release|ARM
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.AppStore|ARM.Build.0 = Release|ARM
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.AppStore|ARM.Deploy.0 = Release|ARM
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.AppStore|iPhone.ActiveCfg = Release|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.AppStore|iPhone.Build.0 = Release|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.AppStore|iPhone.Deploy.0 = Release|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.AppStore|iPhoneSimulator.ActiveCfg = Release|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.AppStore|iPhoneSimulator.Build.0 = Release|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.AppStore|iPhoneSimulator.Deploy.0 = Release|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.AppStore|x64.ActiveCfg = Release|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.AppStore|x64.Build.0 = Release|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.AppStore|x64.Deploy.0 = Release|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.AppStore|x86.ActiveCfg = Release|x86
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.AppStore|x86.Build.0 = Release|x86
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.AppStore|x86.Deploy.0 = Release|x86
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Debug|ARM.ActiveCfg = Debug|ARM
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Debug|ARM.Build.0 = Debug|ARM
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Debug|ARM.Deploy.0 = Debug|ARM
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Debug|iPhone.ActiveCfg = Debug|x86
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Debug|iPhoneSimulator.ActiveCfg = Debug|x86
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Debug|x64.ActiveCfg = Debug|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Debug|x64.Build.0 = Debug|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Debug|x64.Deploy.0 = Debug|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Debug|x86.ActiveCfg = Debug|x86
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Debug|x86.Build.0 = Debug|x86
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Debug|x86.Deploy.0 = Debug|x86
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Release|Any CPU.ActiveCfg = Release|x86
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Release|ARM.ActiveCfg = Release|ARM
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Release|ARM.Build.0 = Release|ARM
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Release|ARM.Deploy.0 = Release|ARM
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Release|iPhone.ActiveCfg = Release|x86
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Release|iPhoneSimulator.ActiveCfg = Release|x86
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Release|x64.ActiveCfg = Release|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Release|x64.Build.0 = Release|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Release|x64.Deploy.0 = Release|x64
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Release|x86.ActiveCfg = Release|x86
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Release|x86.Build.0 = Release|x86
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -272,6 +340,8 @@ Global
 		{7C3EC2AF-B8A9-4EFE-A17E-2D74AC163A16} = {A411DAD7-1D9F-4B8B-9142-4D2233FADD09}
 		{226F8C27-5A3E-40A0-8555-EA22C0FBCA0F} = {A411DAD7-1D9F-4B8B-9142-4D2233FADD09}
 		{90637FA5-B4FC-48E1-BB86-39C624B1FB5D} = {A411DAD7-1D9F-4B8B-9142-4D2233FADD09}
+		{0EAD3758-55D6-438B-AE78-3E6A1225F516} = {1CD049EC-70D5-4544-9139-2F49E552CD48}
+		{4A5D21FF-481E-4FC9-8436-40BDF08993A1} = {1CD049EC-70D5-4544-9139-2F49E552CD48}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DB4FAEF4-1EB1-4B58-B66A-32E1252BA7B7}
