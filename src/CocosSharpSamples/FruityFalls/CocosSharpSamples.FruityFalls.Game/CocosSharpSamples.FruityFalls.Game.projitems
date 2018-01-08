@@ -52,19 +52,22 @@
     <Content Include="$(MSBuildThisFileDirectory)Content\Images\vine.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Sounds\FruityFallsSong.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)Content\Sounds\FruitEdgeBounce.xnb">
+    <Content Include="$(MSBuildThisFileDirectory)Content\Sounds\FruitEdgeBounce.xnb">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)Content\Sounds\FruitInBin.xnb">
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Sounds\FruitInBin.xnb">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)Content\Sounds\FruitPaddleBounce.xnb">
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Sounds\FruitPaddleBounce.xnb">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="$(MSBuildThisFileDirectory)Content\Sounds\GameOver.xnb">
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Sounds\GameOver.xnb">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    </Content>
   </ItemGroup>
 </Project>
