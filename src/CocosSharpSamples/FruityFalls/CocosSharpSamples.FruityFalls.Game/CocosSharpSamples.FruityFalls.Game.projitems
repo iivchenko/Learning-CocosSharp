@@ -34,37 +34,20 @@
     <Compile Include="$(MSBuildThisFileDirectory)Scenes\TitleScene.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="$(MSBuildThisFileDirectory)Content\Images\background.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="$(MSBuildThisFileDirectory)Content\Images\cherry.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="$(MSBuildThisFileDirectory)Content\Images\foreground.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="$(MSBuildThisFileDirectory)Content\Images\lemon.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="$(MSBuildThisFileDirectory)Content\Images\monkey.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="$(MSBuildThisFileDirectory)Content\Images\vine.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <None Include="$(MSBuildThisFileDirectory)Content\FruityFalls.mgcb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Images\background.xnb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Images\cherry.xnb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Images\foreground.xnb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Images\lemon.xnb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Images\monkey.xnb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Images\vine.xnb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sounds\FruitEdgeBounce.xnb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sounds\FruitInBin.xnb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sounds\FruitPaddleBounce.xnb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sounds\FruityFallsSong.xnb" />
+    <None Include="$(MSBuildThisFileDirectory)Content\Sounds\GameOver.xnb" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="$(MSBuildThisFileDirectory)Content\Sounds\FruitEdgeBounce.xnb">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="$(MSBuildThisFileDirectory)Content\Sounds\FruitInBin.xnb">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="$(MSBuildThisFileDirectory)Content\Sounds\FruitPaddleBounce.xnb">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="$(MSBuildThisFileDirectory)Content\Sounds\GameOver.xnb">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Sounds\FruityFallsSong.wma" />
   </ItemGroup>
 </Project>

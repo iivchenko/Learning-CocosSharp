@@ -12,9 +12,10 @@ namespace CocosSharpSamples.CoinTime.Game
 		public override void ApplicationDidFinishLaunching (CCApplication application, CCWindow mainWindow)
 		{
 			GameDelegate.mainWindow = mainWindow;
-			director = new CCDirector ();
+		    director = mainWindow.DefaultDirector;
 
-			application.PreferMultiSampling = false;
+
+            application.PreferMultiSampling = false;
 			application.ContentRootDirectory = "Content";
 			application.ContentSearchPaths.Add ("animations");
 			application.ContentSearchPaths.Add ("fonts");
@@ -27,18 +28,17 @@ namespace CocosSharpSamples.CoinTime.Game
             float desiredHeight = 224.0f;
 
             CCScene.SetDefaultDesignResolution (desiredWidth, desiredHeight, CCSceneResolutionPolicy.ShowAll);
-            
-			mainWindow.AddSceneDirector (director);
 
             // TODO: Doesn't work! Fix it
             //CCSimpleAudioEngine.SharedEngine.PlayBackgroundMusic("CoinTimeSong", loop: true);
             // Make the audio a little quieter:
             CCSimpleAudioEngine.SharedEngine.EffectsVolume = .3f;
 			var scene = new LevelSelectScene (mainWindow);
-			// Can skip to the GmameScene by using this line instead:
-			//var scene = new GameScene(mainWindow);
-			director.RunWithScene (scene);
-		}
+            // Can skip to the GmameScene by using this line instead:
+            //var scene = new GameScene(mainWindow);
+		    mainWindow.DisplayStats = true;
+		    mainWindow.RunWithScene (scene);
+        }
 
 		public override void ApplicationDidEnterBackground (CCApplication application)
 		{
